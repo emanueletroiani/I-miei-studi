@@ -1,60 +1,37 @@
-# NETWORK
+I sistemi operativi usano il linguaggio binario. Per distinguere le diverse informazioni divide numeri e serie di carattere con il concetto di “tipo di stato”
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+![Untitled](https://github.com/user-attachments/assets/0fefb4c1-9fb1-4fc7-a581-eac0ba47c9e8)
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+- **Bool**: ovvero variabile booleana è molto utilizzata in programmazione per esprimere condizione logiche e decisioni. Sono supportate da Operatori logici, ovvero eseguono espressioni logiche tra espressioni booleane o Bit. I piu comuni sono: AND (**`and`**), OR (**`or`**) e NOT (**`not`**).  In breve, il tipo di dato bool rappresenta una variabile che può essere vera o falsa, mentre gli operatori logici eseguono operazioni logiche su espressioni booleane per determinare il risultato in base alle regole della logica booleana.
+1. L'operatore logico **`and`** è un operatore booleano che restituisce **`True`** solo se entrambe le espressioni booleane che collega sono vere, è spesso utilizzato in costrutti condizionali per verificare più condizioni contemporaneamente, richiedendo che tutte siano vere affinché l'intera espressione sia valutata come vera. Ecco una tabella di verità per l'operatore logico AND:
 
--[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
+| **A** | **B** | **A and B** |
+| --- | --- | --- |
+| True | True | True |
+| True | False | False |
+| False | True | False |
+| False | False | False |
+1. OR: è utilizzato per combinare due espressioni booleane e restituisce **`True` (1)** se almeno una delle espressioni è vera (**1**). La tabella di verità per l'operatore OR è la seguente:
 
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
+| **A** | **B** | **A or B** |
+| --- | --- | --- |
+| True | True | True |
+| True | False | True |
+| False | True | True |
+| False | False | False |
+1. NOT:  è utilizzato per invertire il valore di un'espressione booleana. Se l'espressione è vera, NOT restituirà **`False` (0)**, e se l'espressione è falsa, NOT restituirà **`True`(1)**. La tabella di verità per l'operatore NOT è la seguente:
 
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
+| **A** | **not A** |
+| --- | --- |
+| True | False |
+| False | True |
 
+ci sono altri operatori logici disponibili:
 
-## Alcuni Protocolli
+XOR, OR esclusivo
 
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
+XNOR,NOT(XOR)
 
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
+NAND(NAT(AND))
 
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-Strumenti di difesa
-
--[Firewall](https://github.com/emanueletroiani/I-miei-studi/edit/Firewall/README.md)
-
--[WAF](https://github.com/emanueletroiani/I-miei-studi/edit/WAF/README.md)
-
--[I Proxy e il reverse proxy](https://github.com/emanueletroiani/I-miei-studi/blob/I-Proxy-e-il-reverse-proxy/README.md)
-
--[IPS e IDS](https://github.com/emanueletroiani/I-miei-studi/edit/IPS-e-IDS/README.md)
-
--[EDR](https://github.com/emanueletroiani/I-miei-studi/blob/EDR/README.md)
-
--[NGVA](https://github.com/emanueletroiani/I-miei-studi/blob/NGAV/README.md)
-
--[SIEM](https://github.com/emanueletroiani/I-miei-studi/edit/SIEM/README.md)
-
-Attacchi Informatici
-
--[DDoS](https://github.com/emanueletroiani/I-miei-studi/edit/DDoS/README.md)
-
--[SQL Injection](https://github.com/emanueletroiani/I-miei-studi/blob/SQL-Injection/README.md)
-
-
+NOR (NOT(OR)
