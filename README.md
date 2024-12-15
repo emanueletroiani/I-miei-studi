@@ -1,13 +1,11 @@
-# NETWORK
+Una web app di distingue da un’applicazione perchè non necessita di un’istallazione da parte del cliente ma utilizza il browser per accedere all’app. La sua architettura si divide in 3 livelli ed ognuno ha una specifica funzione:
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+- **Presentazione (Front end):** è l’interfaccia grafica con cui interagisce l’utente. Realizzata utilizzando linguaggi HTML, CSS e script javascript
+- **Logico**: E’ il motore elabora le richieste dell’ utente inviando a suo volta richieste al Back end per poi inviare la risposta all’utente. Questo livello è ciò che distingue un sito web dalla web app. Utilizza linguaggi come PHP e Java.
+- **Dati (Back end)**: è il database che contiene i dati della web app. scritto in Mysql, oracle etc.
 
--Struttura Web APP
+# ES:
 
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
+il client invia una richiesta HTTP tramite il front end ma arriva al livello 2 logico che da una parte interpreta e gestisce le interrogazioni del back end e dall'altra genera il risultato in un *output* diretto allo stesso *browser*,
 
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
-
+![image](https://github.com/user-attachments/assets/acd43b18-bb37-41ad-a021-125a43ade566)
