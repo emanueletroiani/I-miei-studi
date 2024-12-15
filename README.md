@@ -5,3 +5,5 @@
 
 -[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
 
+[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+
