@@ -315,7 +315,7 @@ Negli anni per motivi di sicurezza si è aggiunta una cryptografia al livello HT
 
 ### Esempio di **Richiesta HTT**P (suddivisa in blocchi) dal **lato Client**:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f46adb7-7950-4f75-92a1-803289993db5/5c43b221-9fe9-459f-b291-6ee334d5fe59/Untitled.png)
+![Untitled]src="https://prod-files-secure.s3.us-west-2.amazonaws.com/6f46adb7-7950-4f75-92a1-803289993db5/5c43b221-9fe9-459f-b291-6ee334d5fe59/Untitled.png"
 
 1. **Metodo**: Modalità con il quale il Client interagisce con il Server. 
 
