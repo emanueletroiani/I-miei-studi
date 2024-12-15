@@ -1,68 +1,16 @@
-# NETWORK
+Su sistemi operativi Windows, come su altri sistemi operativi, il concetto di "kernel mode" e "user mode" si riferisce alle modalità di esecuzione in cui operano i processi e i programmi.
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+1. **Kernel Mode (Modalità Kernel):**
+    - Nel kernel mode, il software ha accesso completo e illimitato alle risorse e alle funzionalità del sistema operativo.
+    - Il kernel è la parte centrale del sistema operativo, responsabile della gestione delle risorse hardware, dell'accesso alla memoria e dell'esecuzione delle operazioni di sistema più critiche.
+    - I driver di dispositivo e altre componenti essenziali del sistema operativo operano nel kernel mode.
+    - L'esecuzione in kernel mode fornisce un controllo completo, ma richiede una grande responsabilità per evitare errori che potrebbero causare instabilità del sistema.
+2. **User Mode (Modalità Utente):**
+    - Nel user mode, i programmi utente e le applicazioni eseguono le loro operazioni senza avere accesso diretto a risorse hardware o funzionalità di sistema avanzate.
+    - La maggior parte delle applicazioni, come i browser web, editor di testo e giochi, opera nel user mode.
+    - Gli errori nei programmi utente generalmente non causano il blocco del sistema operativo perché non possono accedere direttamente alle risorse critiche del sistema.
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+La transizione tra il kernel mode e il user mode avviene durante l'esecuzione di un processo o di un'interruzione di sistema. Quando un processo utente richiede l'esecuzione di una funzionalità di sistema, come la lettura o la scrittura su disco, viene effettuato un passaggio dal user mode al kernel mode per eseguire il codice del kernel responsabile di quella funzionalità. Una volta completata l'operazione, si ritorna al user mode.
 
--[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
-
-## I sistemi operativi
-
--[Come ragionano](https://github.com/emanueletroiani/I-miei-studi/edit/Come-ragionano/README.md)
-
--[Mono Tasking](https://github.com/emanueletroiani/I-miei-studi/blob/Mono-Tasking/README.md)
-
--[Multi stasking](https://github.com/emanueletroiani/I-miei-studi/edit/Multi-tasking/README.md)
-
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
-
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
-
-## Alcuni Protocolli
-
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
-
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
-
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-Strumenti di difesa
-
--[Firewall](https://github.com/emanueletroiani/I-miei-studi/edit/Firewall/README.md)
-
--[WAF](https://github.com/emanueletroiani/I-miei-studi/edit/WAF/README.md)
-
--[I Proxy e il reverse proxy](https://github.com/emanueletroiani/I-miei-studi/blob/I-Proxy-e-il-reverse-proxy/README.md)
-
--[IPS e IDS](https://github.com/emanueletroiani/I-miei-studi/edit/IPS-e-IDS/README.md)
-
--[EDR](https://github.com/emanueletroiani/I-miei-studi/blob/EDR/README.md)
-
--[NGVA](https://github.com/emanueletroiani/I-miei-studi/blob/NGAV/README.md)
-
--[SIEM](https://github.com/emanueletroiani/I-miei-studi/edit/SIEM/README.md)
-
-Attacchi Informatici
-
--[DDoS](https://github.com/emanueletroiani/I-miei-studi/edit/DDoS/README.md)
-
--[SQL Injection](https://github.com/emanueletroiani/I-miei-studi/blob/SQL-Injection/README.md)
-
+Questo approccio è progettato per migliorare la stabilità e la sicurezza del sistema operativo, garantendo che i processi utente non possano danneggiare accidentalmente o intenzionalmente risorse critiche del sistema.
 
