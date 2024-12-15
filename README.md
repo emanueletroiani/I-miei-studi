@@ -1,16 +1,6 @@
-# NETWORK
+E’ utilizzato per il trasferimento di File, ovviamente **utilizza** il protocollo **TCP** per garantire l’arrivo di tutti i dati. Apre **2 connessioni** in parallelo: 
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+- Connessione **di controllo**: Usata per **spedire informazion**i come **username/password,** comandi per navigare nella directory e per inviare/ricevere file. Utilizza la **porta 21**
+- Connessione **di dat**i: Nella quale **transitano fisicamente i dati**. Utilizza la **porta 20**
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
-
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
-
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
-
-## Alcuni Protocolli
-
-
+Il protocollo è stato sostituito con il **FTPs** che è supportato da un protocollo di criptazione **SSL.**
