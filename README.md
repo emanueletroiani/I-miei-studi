@@ -1,37 +1,9 @@
-# NETWORK
+# Cosa fa?
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+E’ in grado di rilevare minacce malware e comportamenti dannosi sconosciuti nel momento in cui si verificano.  In questo modo, offre un metodo più efficace per affrontare le minacce moderne come ransomware, attacchi di scripting, malware senza file e vulnerabilità zero-day.
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+# Perchè è importante
 
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
+Molti sistemi di sicurezza si basano su firme digitali conosciute dei malware, anche con un continuo aggiornamento dei database di firme eventuali 0 day non vengono rilevati. ecco che entra in gioco il NGAV che tramite le TTP dei passati attacchi informatici e unito all’ apprendimento AI monitorano questi aspetti. In oltre è in grado di rilevare minacce senza FILE, tipo attacchi powershell o email di phishing.
 
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
-
-## Alcuni Protocolli
-
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
-
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
-
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-
+Anche qui però possono esserci falsi positivi
