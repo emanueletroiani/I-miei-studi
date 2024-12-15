@@ -1,60 +1,16 @@
-# NETWORK
+Il sistema monotasking, o monoprogrammazione, si riferisce a un ambiente in cui solo un singolo processo può essere eseguito alla volta sulla CPU. In un sistema monotasking, la CPU è dedicata completamente all'esecuzione di un'unica attività o processo per un determinato periodo. **in pratica avvia una sola applicazione alla volta**
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+Quando si tratta di leggere i processi nella CPU in un sistema monotasking, il flusso di esecuzione è abbastanza semplice. Ecco come funziona:
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+1. **Caricamento del Programma:**
+    - Quando il sistema operativo viene avviato, viene caricato un programma principale o un processo iniziale nella memoria principale (RAM). Questo processo rappresenta l'attività primaria del sistema.
+2. **Esecuzione del Processo:**
+    - La CPU inizia ad eseguire le istruzioni del processo caricato in memoria. Il sistema operativo assegna l'intera potenza di elaborazione della CPU a questo unico processo.
+3. **Completamento o Interruzione:**
+    - Il processo continua ad essere eseguito fino a quando non è completato o viene interrotto da un'azione specifica, come la terminazione del programma o l'attivazione di un altro processo.
+4. **Pianificazione del Processo Successivo:**
+    - Se è previsto l'avvio di un altro processo, il sistema operativo può pianificare il caricamento del nuovo processo in memoria e l'avvio dell'esecuzione. Tuttavia, in un sistema monotasking, ciò avviene solo dopo che il processo corrente è stato completato o interrotto.
+5. **Ripetizione del Ciclo:**
+    - Il ciclo di caricamento, esecuzione e completamento o interruzione si ripete ogni volta che un nuovo processo deve essere eseguito. In un sistema monotasking, solo un processo è attivo alla volta.
 
--[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
-
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
-
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
-
-## Alcuni Protocolli
-
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
-
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
-
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-Strumenti di difesa
-
--[Firewall](https://github.com/emanueletroiani/I-miei-studi/edit/Firewall/README.md)
-
--[WAF](https://github.com/emanueletroiani/I-miei-studi/edit/WAF/README.md)
-
--[I Proxy e il reverse proxy](https://github.com/emanueletroiani/I-miei-studi/blob/I-Proxy-e-il-reverse-proxy/README.md)
-
--[IPS e IDS](https://github.com/emanueletroiani/I-miei-studi/edit/IPS-e-IDS/README.md)
-
--[EDR](https://github.com/emanueletroiani/I-miei-studi/blob/EDR/README.md)
-
--[NGVA](https://github.com/emanueletroiani/I-miei-studi/blob/NGAV/README.md)
-
--[SIEM](https://github.com/emanueletroiani/I-miei-studi/edit/SIEM/README.md)
-
-Attacchi Informatici
-
--[DDoS](https://github.com/emanueletroiani/I-miei-studi/edit/DDoS/README.md)
-
--[SQL Injection](https://github.com/emanueletroiani/I-miei-studi/blob/SQL-Injection/README.md)
-
-
+La monoprogrammazione ha la sua utilità in sistemi operativi dedicati a compiti specifici, come i microcontrollori incorporati, ma è meno comune nei moderni sistemi operativi per computer personali, che generalmente utilizzano sistemi multitasking per consentire l'esecuzione simultanea di più processi sulla CPU.
