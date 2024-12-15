@@ -1,37 +1,21 @@
-# NETWORK
+# COSA FA?
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+Un WAF **protegge** le **applicazioni** **Web** puntando al **traffico HTTP**. Opera in modo diverso da un firewall standard, che interpone una barriera tra il [**traffico di rete**](https://www.fortinet.com/it/resources/cyberglossary/network-traffic) esterno e interno.
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+Un WAF si **interpone tra** gli **utenti** esterni **e** le **applicazioni** Web per **analizzare** tutte le **comunicazioni HTTP**, e quindi **rileva** e **blocca** le **richieste dannose** prima che raggiungano gli utenti o le applicazioni Web.
 
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
+# Layer 7
 
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
+Protegge da attacchi il layer 7 (applicativo) della pila iso osi. 
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+In questo modo **difende** le aziende da minacce come, manipolazione di **cookie**, attacchi **URL**, **attacchi XSS**, **DDoS applicativi** e attacchi di iniezione **SQL**.
 
-## Alcuni Protocolli
+**ES**:
 
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
+un attacco DDoS di livello 7 invia un flusso di traffico al livello server in cui le pagine Web vengono generate e distribuite in risposta alle richieste HTTP. Un WAF mitiga questa azione agendo come proxy inverso che protegge il server target dal traffico dannoso e filtra le richieste per identificare l’uso di strumenti DDoS. 
 
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
+# **Attacchi Web e accessi non autorizzati a confronto**
 
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-
+- **DOS** diretto: tentativo di interrompere il funzionamento di una rete, un servizio o un server sovraccaricandolo con un flusso di traffico Internet. L’obiettivo è esaurire le risorse del bersaglio: in questi casi la difesa non è sempre facile, per via della difficoltà a individuare il traffico dannoso.
+- **SQL** injection: tipo di attacco di iniezione che consente agli hacker di eseguire istruzioni SQL dannose per controllare il server di database che sta dietro un’applicazione Web. Ciò consente agli autori di un attacco di aggirare l’autenticazione e l’autorizzazione della pagina Web e recuperare il contenuto del database SQL, per aggiungere, modificare ed eliminarne i record. I criminali informatici possono utilizzare l’iniezione SQL per accedere alle informazioni dei clienti, ai dati personali e alla proprietà intellettuale.
+- **XSS**: vulnerabilità della sicurezza Web che consente agli aggressori di compromettere le interazioni degli utenti con le applicazioni. Permette all’aggressore di aggirare la stessa policy originale che separa i diversi siti Web. Di conseguenza, l’aggressore può mascherarsi come un utente autentico e accedere ai dati e alle risorse per cui dispone dell’autorizzazione.
