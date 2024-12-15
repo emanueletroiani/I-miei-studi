@@ -14,6 +14,8 @@
 
 -[Multi stasking](https://github.com/emanueletroiani/I-miei-studi/edit/Multi-tasking/README.md)
 
+-[Kernel e User Mode](https://github.com/emanueletroiani/I-miei-studi/blob/Kernel-e-User-Mode/README.md)
+
 ## La Pila Iso/Osi
 -[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
 
