@@ -1,60 +1,21 @@
-# NETWORK
+I sistemi multi tasking sono es: Windows e linux che permettono di utilizzare piu programmi alla volta. 
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+1. **Processi Concorrenti:**
+    - Nei sistemi multitasking, **più process**i possono essere in esecuzione **contemporaneamente**. Ogni processo è un'istanza indipendente di un programma in esecuzione, e il sistema operativo alloca risorse della CPU a ciascun processo in base a politiche di scheduling specifiche.
+2. **Scheduling:**
+    - Il sistema operativo utilizza algoritmi di scheduling per determinare quali processi devono essere eseguiti in un determinato momento e per quanto tempo. Ciò consente di bilanciare l'utilizzo della CPU tra i vari processi e di rispondere alle esigenze di priorità dei processi.
+3. **Switching del Contesto:**
+    - Per passare da un processo all'altro, il sistema operativo esegue uno "switch di contesto". Questo comporta il salvataggio dello stato del processo corrente e il ripristino dello stato del nuovo processo da eseguire. Lo switch di contesto consente ai processi di condividere la CPU senza interferenze.
+4. **Multithreading:**
+    - I sistemi multitasking possono supportare anche il multithreading, che è la capacità di un programma di suddividere il proprio lavoro in più thread, ciascuno dei quali può essere eseguito in modo indipendente. I thread condividono le risorse dello stesso processo, semplificando lo scambio di informazioni.
+5. **Priorità dei Processi:**
+    - I processi possono avere diverse priorità assegnate dal sistema operativo. I processi ad alta priorità riceveranno più tempo di CPU rispetto a quelli a bassa priorità. Questo aiuta a garantire che i processi critici siano gestiti in modo tempestivo.
+6. **Sistemi Operativi Moderni:**
+    - I moderni sistemi operativi, come Windows, macOS e molte distribuzioni di Linux, sono progettati per supportare il multitasking. Gli utenti possono eseguire più applicazioni contemporaneamente, passare tra di esse e gestire le risorse in modo efficiente.
+7. **Utente e Background:**
+    - Gli utenti possono interagire direttamente con un'applicazione in primo piano, mentre altre applicazioni possono essere in esecuzione in background. Ciò consente l'esecuzione di processi in modo trasparente all'utente.
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+![Untitled](https://github.com/user-attachments/assets/cc331b4e-edf3-4200-98ac-cb6a40caa35e)
 
--[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
-
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
-
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
-
-## Alcuni Protocolli
-
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
-
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
-
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-Strumenti di difesa
-
--[Firewall](https://github.com/emanueletroiani/I-miei-studi/edit/Firewall/README.md)
-
--[WAF](https://github.com/emanueletroiani/I-miei-studi/edit/WAF/README.md)
-
--[I Proxy e il reverse proxy](https://github.com/emanueletroiani/I-miei-studi/blob/I-Proxy-e-il-reverse-proxy/README.md)
-
--[IPS e IDS](https://github.com/emanueletroiani/I-miei-studi/edit/IPS-e-IDS/README.md)
-
--[EDR](https://github.com/emanueletroiani/I-miei-studi/blob/EDR/README.md)
-
--[NGVA](https://github.com/emanueletroiani/I-miei-studi/blob/NGAV/README.md)
-
--[SIEM](https://github.com/emanueletroiani/I-miei-studi/edit/SIEM/README.md)
-
-Attacchi Informatici
-
--[DDoS](https://github.com/emanueletroiani/I-miei-studi/edit/DDoS/README.md)
-
--[SQL Injection](https://github.com/emanueletroiani/I-miei-studi/blob/SQL-Injection/README.md)
-
+**Seguono sempre L’ordine di priorità A-B-C**
 
