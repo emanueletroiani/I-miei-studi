@@ -1,37 +1,23 @@
-# NETWORK
+[IDS-IPS Analisi Comparativa.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f46adb7-7950-4f75-92a1-803289993db5/6b19a153-c6e8-4ec2-b5c5-97338e819fcd/IDS-IPS_Analisi_Comparativa.pdf)
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+**IDS** (intrusion detection system) è un sistema di rilevamento di minacce che invia **feedback** ad un **operatore** che a suo volta attuerà delle azioni, decidendo se far passare la minaccia o meno.
 
--[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
+**IPS** (intrusion Prevenction System) è il sistema che rileva e **prende decisioni** di Drop o allow della minaccia rilevata.
 
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
+Non è detto che L’IPS sia migliore dei due in quanto bisogna tenere conta anche dei **falsi positivi** e in alcuni **sistemi** che **necessitano** una **continuità** di **servizio** l’IDS risulta la scelta ideale.
 
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
+# Tipi di IDS
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
+In base alla collocazione del sistema possiamo avere 2 tipi:
 
-## Alcuni Protocolli
+- HIDS: IDS basati sugli host
+    - Installato nel sistema operativo, monitorerà il traffico di entrata ed uscita dell’host e i processi in esecuzione.
+- NIDS: IDS basati sul network
+    - è un server dedicato al monitoraggio della rete VLAN attaccandolo allo Switch.
 
--[DNS: Domain Name System](https://github.com/emanueletroiani/Network/blob/DNS-Domain-Name-System/README.md)
+# COME L’IDS FUNZIONA
 
--[DHCP: Dynamic Host Configuration Protocol](https://github.com/emanueletroiani/Network/blob/DHCP-Dynamic-Host-Configuration-Protocol/README.md)
+Bisogna che rilevi il traffico malevolo all’interno della rete, lo fa in 2 modi:
 
--[FTP/FTPS: (file transfert protocol)](https://github.com/emanueletroiani/Network/blob/FTP-(file-transfert-protocol)/README.md)
-
--[HTTP: HiperText Transfer Protocol and HTTPs](https://github.com/emanueletroiani/Network/edit/%23-HTTP-HiperText-Transfer-Protocol-and-HTTPs/README.md)
-
--[BGP: Border Gateway Protocol](https://github.com/emanueletroiani/Network/edit/BGP-Border-Gateway-Protocol/README.md)
-
-# SOC Level 1
-
--[La Piramide del Dolore](https://github.com/emanueletroiani/Network/edit/La-Piramide-del-Dolore/README.md)
-
-TOOLS Utili
-
-- [Mediant IOC Editor](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-IOC-Editor/README.md)
-- [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
-
--[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
-
-
+- Con le Firme: ovvero tramite un database sempre aggiornato, sa quali attività sono malevole.
+- Con anomalie di traffico, qui bisogna insegnare all’ IDS il regolare traffico e lo possiamo fare tramite apprendimento automatico o con regole manuali
