@@ -1,6 +1,5 @@
-Spiegazione dettagliata
-
 [BL01_20220520.pdf](https://prod-files-secure.s3.us-west-2.amazonaws.com/6f46adb7-7950-4f75-92a1-803289993db5/584e35d9-3c9f-472c-805d-53914f7c2838/BL01_20220520.pdf)
+
 
 # Che cos’è
 
