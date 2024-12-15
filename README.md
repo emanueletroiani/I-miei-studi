@@ -49,4 +49,10 @@ Strumenti di difesa
 
 -[SIEM](https://github.com/emanueletroiani/I-miei-studi/edit/SIEM/README.md)
 
+Attacchi Informatici
+
+-[DDoS](https://github.com/emanueletroiani/I-miei-studi/edit/DDoS/README.md)
+
+-SQL Injection
+
 
