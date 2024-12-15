@@ -14,3 +14,5 @@ Quando si tratta di leggere i processi nella CPU in un sistema monotasking, il f
     - Il ciclo di caricamento, esecuzione e completamento o interruzione si ripete ogni volta che un nuovo processo deve essere eseguito. In un sistema monotasking, solo un processo è attivo alla volta.
 
 La monoprogrammazione ha la sua utilità in sistemi operativi dedicati a compiti specifici, come i microcontrollori incorporati, ma è meno comune nei moderni sistemi operativi per computer personali, che generalmente utilizzano sistemi multitasking per consentire l'esecuzione simultanea di più processi sulla CPU.
+
+![Untitled](https://github.com/user-attachments/assets/642e0879-34b5-413e-8567-16fdcfe421f5)
