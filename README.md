@@ -6,6 +6,14 @@
 
 -[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
 
+## I sistemi operativi
+
+-[Come ragionano](https://github.com/emanueletroiani/I-miei-studi/edit/Come-ragionano/README.md)
+
+-[Mono Tasking](https://github.com/emanueletroiani/I-miei-studi/blob/Mono-Tasking/README.md)
+
+-[Multi stasking](https://github.com/emanueletroiani/I-miei-studi/edit/Multi-tasking/README.md)
+
 ## La Pila Iso/Osi
 -[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
 
