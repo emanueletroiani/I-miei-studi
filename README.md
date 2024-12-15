@@ -1,5 +1,10 @@
 ![image](https://github.com/user-attachments/assets/fc9af464-731e-468d-9592-fbf1a4975963)
 
+**Consiste:** nell'identificazione del bersaglio, nella decisione e nell'ordine di attaccare il bersaglio e infine nella distruzione del bersaglio.
+
+Grazie a **Lockheed Martin**, un'azienda aerospaziale e di sicurezza globale, che ha stabilito il **framework Cyber Kill Chain** per il settore della sicurezza informatica nel 2011 basato sul **concetto militare**. Il framework **definisce** i **passaggi** utilizzati dagli avversari o dagli attori **malintenzionati nel cyberspazio**. Per avere successo, un **avversario** deve **passare** attraverso **tutte le fasi** della **Kill Chain**. Esamineremo le fasi di attacco e ti aiuteremo a comprendere meglio gli avversari e le loro tecniche utilizzate nell'attacco per difenderti.
+
+Affrontiamo il tutto mettendoci dalla parte dell’attacante
 
 # Reconnaissance
 
