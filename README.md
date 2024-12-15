@@ -9,7 +9,6 @@
 
 -[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
 
--[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
 
 ## Alcuni Protocolli
 
@@ -33,5 +32,15 @@ TOOLS Utili
 - [Mediant redline](https://github.com/emanueletroiani/I-miei-studi/edit/Mediant-redline/README.md)
 
 -[Cyber kill Chain](https://github.com/emanueletroiani/I-miei-studi/edit/Cyber-kill-Chain/README.md)
+
+Strumenti di difesa
+
+-[Firewall](https://github.com/emanueletroiani/I-miei-studi/edit/Firewall/README.md)
+-[WAF](https://github.com/emanueletroiani/I-miei-studi/edit/WAF/README.md)
+-[I Proxy e il reverse proxy](https://github.com/emanueletroiani/I-miei-studi/blob/I-Proxy-e-il-reverse-proxy/README.md)
+-[IPS e IDS](https://github.com/emanueletroiani/I-miei-studi/edit/IPS-e-IDS/README.md)
+-[EDR](https://github.com/emanueletroiani/I-miei-studi/blob/EDR/README.md)
+-[NGVA](https://github.com/emanueletroiani/I-miei-studi/blob/NGAV/README.md)
+-[SIEM](https://github.com/emanueletroiani/I-miei-studi/edit/SIEM/README.md)
 
 
