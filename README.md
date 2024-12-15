@@ -15,12 +15,12 @@ Geografiche e Topologiche
     Sono reti che coprono aree limitate come quella bluetooth tra cellulare e cuffie
     
 - **Topologiche**: In base alla configurazione dei collegamenti fisici
-    
-    **Bus**
-    
-    I diversi dispositivi sono connessi tramite un unico cavo di trasmissione, dove i pc formano dei nodi per ricevere la connessione.  Per esempio un cavo ethernet che collega piu PC
 
-  ![Untitled](https://github.com/user-attachments/assets/2fd0c396-102c-4f0d-9e67-e43a6bc1c01c)
+**Bus**
+    
+I diversi dispositivi sono connessi tramite un unico cavo di trasmissione, dove i pc formano dei nodi per ricevere la connessione.  Per esempio un cavo ethernet che collega piu PC
+
+![Untitled](https://github.com/user-attachments/assets/2fd0c396-102c-4f0d-9e67-e43a6bc1c01c)
 
 **Anello**
 
