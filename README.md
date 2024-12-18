@@ -6,7 +6,7 @@
 
 -[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
 
-# La Pila Iso/Osi
+## La Pila Iso/Osi
 
 -[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
 
