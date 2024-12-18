@@ -1,10 +1,15 @@
-# NETWORK
+# Network
 
 -[Tipologie di Rete](https://github.com/emanueletroiani/Network/edit/Tipologie-di-Rete/README.md)
 
 -[Struttura Web APP](https://github.com/emanueletroiani/Network/blob/Struttura-Wep-APP/README.md)
 
 -[Zoning, dividere le reti in zone](https://github.com/emanueletroiani/I-miei-studi/blob/Zoning,-dividere-le-reti-in-zone/README.md)
+
+-[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
+
+-[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
+
 
 ## I sistemi operativi
 
@@ -15,12 +20,6 @@
 -[Multi stasking](https://github.com/emanueletroiani/I-miei-studi/edit/Multi-tasking/README.md)
 
 -[Kernel e User Mode](https://github.com/emanueletroiani/I-miei-studi/blob/Kernel-e-User-Mode/README.md)
-
-## La Pila Iso/Osi
--[Perchè è stata creata](https://github.com/emanueletroiani/Network/tree/Pila-Iso/Osi)
-
--[I Livelli](https://github.com/emanueletroiani/Network/blob/I-Livelli/README.md)
-
 
 ## Alcuni Protocolli
 
